@@ -3,12 +3,12 @@ Want to light up your terminal? Well you didn't come to the right place. This is
 
 ## Installation
 ```bash
-    pip install PCM
+    pip install pcl
 ```
 
 ## Usage
 ```bash
-    >>> import PCM
-    >>> PCM.convertHexToAnsi(0x00a3b2)
+    >>> import PCL
+    >>> PCL.convertHexToAnsi(0x00a3b2)
     34
 ```
