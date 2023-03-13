@@ -223,3 +223,6 @@ def _v(m1, m2, hue):
     if hue < TWO_THIRDS:
         return m1 + (m2 - m1) * (TWO_THIRDS - hue) * 6.0
     return m1
+
+def getANSITagRGB(color):
+    return f"\x1b[38;2;{color[0]};{color[1]};{color[2]}m"
