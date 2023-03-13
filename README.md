@@ -3,7 +3,7 @@ Want to light up your terminal? Well you didn't come to the right place. This is
 
 ## Installation
 ```bash
-    pip install pcm
+    pip install PCM
 ```
 
 ## Usage
