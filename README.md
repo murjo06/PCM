@@ -9,6 +9,6 @@ Want to light up your terminal? Well you didn't come to the right place. This is
 ## Usage
 ```bash
     >>> import PCL
-    >>> PCL.convertHexToAnsi(0x00a3b2)
+    >>> PCL.convertColor(PCL.HEX, PCL.ANSI, 0x00a3b2)
     34
 ```
