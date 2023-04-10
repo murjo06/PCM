@@ -3,12 +3,12 @@ Want to light up your terminal? Well you didn't come to the right place. This is
 
 ## Installation
 ```bash
-    pip install python-color-manager
+pip install python-color-manager
 ```
 
 ## Usage
 ```bash
-    >>> import PCL
-    >>> PCL.convertColor(PCL.HEX, PCL.ANSI, 0x00a3b2)
-    34
+>>> import PCL
+>>> PCL.convertColor(PCL.HEX, PCL.ANSI, 0x00a3b2)
+34
 ```
